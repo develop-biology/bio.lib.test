@@ -1,0 +1,10 @@
+{
+  "cpp_version": 17,
+  "name": "test_bio",
+  "type": "test",
+  "clear_build_path": true,
+  "libs_shared": [
+    "gtest",
+    "bio"
+  ]
+}
