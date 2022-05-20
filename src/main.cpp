@@ -1,6 +1,8 @@
-#include "gtest/gtest.h"
-#include "poc.h"
-#include "bio.h"
+#include <gtest/gtest.h>
+#include "PoC.h"
+#include "ByteStream.h"
+#include "Arrangement.h"
+#include "Perspective.h"
 
 int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);

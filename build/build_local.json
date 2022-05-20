@@ -10,7 +10,7 @@
       "build_in": "local",
       "config" : {
         "cpp_version" : 20,
-        "libs_shared": [
+        "dep_lib": [
           "gtest",
           "bio"
         ]
