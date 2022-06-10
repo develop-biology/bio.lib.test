@@ -10,5 +10,5 @@ TEST(Atom, BondPrimitive)
 	EXPECT_EQ(a.GetAllBonds()->Size(), 0);
 	EXPECT_TRUE(a.FormBond< int >(1234));
 	EXPECT_EQ(a.GetAllBonds()->Size(), 1);
-	EXPECT_EQ(a.As< int >(), 1234);
+	EXPECT_EQ(*a.As< int* >(), 1234);
 }
