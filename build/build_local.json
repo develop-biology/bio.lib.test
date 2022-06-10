@@ -1,0 +1,20 @@
+{
+  "name": "test_bio",
+  "type": "test",
+  "clear_build_path" : false,
+  "build_in" : "../",
+  "next" : [
+    {
+      "clear_build_path" : true,
+      "build" : "cpp",
+      "build_in": "local",
+      "config" : {
+        "cpp_version" : 20,
+        "dep_lib": [
+          "gtest",
+          "bio"
+        ]
+      }
+    }
+  ]
+}
