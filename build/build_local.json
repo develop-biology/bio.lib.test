@@ -9,7 +9,9 @@
       "build" : "cpp",
       "build_in": "local",
       "config" : {
-        "cpp_version" : 20,
+        "cpp_versions" : [
+          20
+        ],
         "dep_lib": [
           "gtest",
           "bio"
